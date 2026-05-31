@@ -3,11 +3,11 @@
 
 
 import React, { useEffect } from 'react';
-import messi from "@/assets/messi.png";
+import jeh from "@/assets/jeh.png";
 
 const ShaderComponent = ({ ...props}) => {
 
-    useEffect(()=>{
+useEffect(()=>{
 const canvas = document.getElementsByTagName("canvas")[0];
 const image = document.getElementsByTagName("img")[0];
 canvas.width = canvas.clientWidth;
@@ -20,7 +20,7 @@ const params = {
     VELOCITY_DISSIPATION: .9,
     PRESSURE_ITERATIONS: 10,
     SPLAT_RADIUS: 3 / window.innerHeight,
-    color: {r: .8, g: .5, b: .2}
+    color: {r: .5, g: .5, b: .5}
 };
 
 const pointer = {
@@ -323,13 +323,10 @@ function render() {
 
 },[])
 
-
-
-
   return (
     <div>
       <div className="content  overflow-hidden flex items-center justify-center ">
-        <img src={messi.src} alt="Ksenia"  className="object-fill w-full min-h-screen"/>
+        <img src={jeh.src} alt="Ksenia"  className="object-fill w-full min-h-screen"/>
       </div>
 
       <canvas></canvas>
