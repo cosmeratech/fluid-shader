@@ -326,7 +326,7 @@ function render() {
   return (
     <div>
       <div className="content  overflow-hidden flex items-center justify-center ">
-        <img src={jeh.src} alt="Ksenia"  className="object-fill w-full min-h-screen"/>
+        <img src={kendrick.src} alt="Ksenia"  className="object-fill w-full min-h-screen"/>
       </div>
 
       <canvas></canvas>
