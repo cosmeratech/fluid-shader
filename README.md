@@ -47,47 +47,11 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## Usage
-
-The `ShaderComponent` is a wrapper — place any content inside it:
-
-```jsx
-import ShaderComponent from "@/components/hero";
-
-export default function Page() {
-  return (
-    <ShaderComponent>
-      <h1>Your content here</h1>
-    </ShaderComponent>
-  );
-}
-```
-
----
-
-## Customization
-
-Edit the `params` object in `src/components/hero.jsx` to tweak the effect:
-
-```js
-const params = {
-  SIM_RESOLUTION: 128,        // Simulation grid resolution
-  DYE_RESOLUTION: 1024,       // Color/dye resolution
-  DENSITY_DISSIPATION: 0.995, // How fast color fades
-  VELOCITY_DISSIPATION: 0.9,  // How fast fluid slows down
-  PRESSURE_ITERATIONS: 10,    // Pressure solver iterations
-  SPLAT_RADIUS: 3 / window.innerHeight, // Size of fluid splat
-  color: { r: 0.5, g: 0.5, b: 0.5 }   // RGB color of the fluid
-};
-```
-
 To change the background image, drop your image into `src/assets/` and update the import in `hero.jsx`:
 
 ```js
 import myImage from "@/assets/your-image.png";
 ```
-
----
 
 ## Project Structure
 
