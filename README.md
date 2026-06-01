@@ -1,6 +1,6 @@
 # Shader Component — Oil Effect
 
-An interactive WebGL oil/fluid shader overlay built with **Next.js 14** and **React 18**. The shader simulates a fluid dynamics effect (velocity, pressure, advection) rendered on top of a background image using a WebGL canvas.
+An interactive WebGL fluid shader overlay built with **Next.js** and **React.js**. The shader simulates a fluid dynamics effect (velocity, pressure, advection) rendered on top of a background image using a WebGL canvas.
 
 ---
 
@@ -22,8 +22,8 @@ Move your mouse or tap the screen to interact with the oil fluid effect.
 
 ## Tech Stack
 
-- [Next.js 14](https://nextjs.org/)
-- [React 18](https://react.dev/)
+- [Next.js](https://nextjs.org/)
+- [React.js](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - WebGL (vanilla, no extra libraries)
 
