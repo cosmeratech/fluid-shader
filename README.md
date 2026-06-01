@@ -102,9 +102,3 @@ src/
 └── assets/
     └── your-image.png # Background image
 ```
-
----
-
-## License
-
-MIT
