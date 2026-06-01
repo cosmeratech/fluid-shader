@@ -3,7 +3,7 @@
 
 
 import React, { useEffect } from 'react';
-import jeh from "@/assets/jeh.png";
+import kendrick from "@/assets/kendrick.png";
 
 const ShaderComponent = ({ ...props}) => {
 
